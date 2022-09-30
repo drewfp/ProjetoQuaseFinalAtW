@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #751921;
+    background: #330a07;
 }
 
 #container {
@@ -15,11 +15,36 @@ body {
     background-size: 100%;
     text-align: center;
     height: 150px;
+    color: #efcc6e;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    font-size: x-large;
+
 }
 /*Visual do menu principal*/
 #mainav {
-    background: #d5502a;
+    background: #330a07;
     text-align: center;
+    text-decoration: none;
+}
+
+#mainav ul a{
+    text-decoration: none;
+    color: #efcc6e;
+    font-size:larger;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mainav a:hover{
+    font-size: xx-large;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 #mainav ul {
@@ -32,11 +57,13 @@ body {
 #mainav li{
     display: inline;
     padding: 0 10px;
+    text-decoration: none;
 }
 /*Visual do menu lateral*/
 #menu {
     float: right;
-    width: 200px;
+    width: 10%;
+    height: 400px;
     background: #ff8b3f;
 }
 
@@ -50,15 +77,134 @@ body {
 /*Visual do conteudo*/
 #contents {
     float: left;
-    width: 1079px;
-    background: #ffd447;
+    width: 90%;
+    background: #751921;
     margin: 0 0 0 0px;
+    height: 500px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+#pacote1 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-image: url("../img/bgtrip.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+#pacote1:hover{
+    border: 1px solid black;
+    background-image: url("../img/Disney.jpg");
+    width: 240px;
+    height: 240px;
+    background-size: 240px;
+    background-repeat: no-repeat;
+}
+
+#pacote2 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-image: url("../img/bgtrip.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+#pacote2:hover{
+    border: 1px solid black;
+    background-image: url("../img/Japão.jpg");
+    width: 240px;
+    height: 240px;
+    background-size: 240px;
+    background-repeat: no-repeat;
+}
+
+#pacote3 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-image: url("../img/bgtrip.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+
+#pacote3:hover{
+    border: 1px solid black;
+    background-image: url("../img/França.jpg");
+    width: 240px;
+    height: 240px;
+    background-size: 240px;
+    background-repeat: no-repeat;
+}
+
+#pacote4 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-image: url("../img/bgtrip.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+
+#pacote4:hover{
+    border: 1px solid black;
+    background-image: url("../img/maldivas.jpg");
+    width: 240px;
+    height: 240px;
+    background-size: 240px;
+    background-repeat: no-repeat;
+}
+
+#pacote5 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-image: url("../img/bgtrip.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+
+#pacote5:hover{
+    border: 1px solid black;
+    background-image: url("../img/london.jpg");
+    width: 240px;
+    height: 240px;
+    background-size: 240px;
+    background-repeat: no-repeat;
+}
+
+#h3pacotes {
+    display: inline-block;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: #efcc6e;
+    font-size: xx-large;
 }
 
 .imgcontent {
     float: right;
     padding: 2px;
     margin: 0 0 10px 10px;
+}
+
+#contents p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #efcc6e;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    font-size: xx-large;
 }
 
 /*Visual do rodapé*/
@@ -68,3 +214,18 @@ body {
     text-align: center;
 }
 
+.contents {
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    color: #efcc6e;
+    font-size: x-large;
+    
+}
+.menu {
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    color: #efcc6e;
+    font-size: x-large;
+}
