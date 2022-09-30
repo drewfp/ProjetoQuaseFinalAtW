@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #330a07;
+}
+
+#container {
+    margin: 15em auto;
+    width: 90%;
+    background: #751921;
+}
+/* visual do header */
+#header {
+    background: #9b2f25 url("../img/Backgroundheader.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    height: 150px;
+    color: #efcc6e;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    font-size: x-large;
+
+}
+/*Visual do menu principal*/
+#mainav {
+    background: #330a07;
+    text-align: center;
+    text-decoration: none;
+}
+
+#mainav ul a{
+    text-decoration: none;
+    color: #efcc6e;
+    font-size:larger;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mainav a:hover{
+    font-size: xx-large;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#mainav ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+    list-style-type: none;
+    border-left: 1px solid #000;
+}
+
+#mainav li{
+    display: inline;
+    padding: 0 10px;
+    text-decoration: none;
+}
+/*Visual do menu lateral*/
+#menu {
+    float: right;
+    width: 200px;
+    height: 400px;
+    background: #ff8b3f;
+}
+
+#menu ul li {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/*Visual do conteudo*/
+#contents {
+    float: left;
+    width: 1167px;
+    background: #ffd447;
+    margin: 0 0 0 0px;
+    height: 400px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+#pacote1 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-image: url("../img/bgtrip.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+#pacote1:hover{
+    border: 1px solid black;
+    background-image: url("../img/Disney.jpg");
+    width: 250px;
+    height: 250px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#pacote2 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-image: url("../img/bgtrip.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+#pacote2:hover{
+    border: 1px solid black;
+    background-image: url("../img/Japão.jpg");
+    width: 230px;
+    height: 230px;
+    background-size: 230px;
+    background-repeat: no-repeat;
+}
+
+#pacote3 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    background-image: url("../img/bgtrip.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+
+#pacote3:hover{
+    border: 1px solid black;
+    background-image: url("../img/França.jpg");
+    width: 230px;
+    height: 230px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.imgcontent {
+    float: right;
+    padding: 2px;
+    margin: 0 0 10px 10px;
+}
+
+/*Visual do rodapé*/
+#footer {
+    clear: both;
+    background-color: #ff8e67;
+    text-align: center;
+}
+
